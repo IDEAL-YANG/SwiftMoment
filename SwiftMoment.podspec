@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "SwiftMoment"
-  s.version      = "0.7"
+  s.name         = "LXSwiftMoment"
+  s.version      = "0.7.1"
   s.summary      = "A time and calendar manipulation library for iOS / macOS / tvOS / watchOS written in Swift"
   s.description  = <<-DESC
                     This framework is inspired by Moment.js. Its objectives are the following:
@@ -12,16 +12,17 @@ Pod::Spec.new do |s|
                     * Streamlining getting date components (day, month, etc.) from dates and time intervals.
 
                     This framework supports iOS 9+, macOS 10.11+, tvOS 9+, watchOS 3+, Xcode 8 and Swift 3.
+                    Fix SwiftMoment, because release too slow
                    DESC
-  s.homepage     = "http://akosma.github.io/SwiftMoment/"
+  s.homepage     = "https://github.com/IDEAL-YANG/SwiftMoment"
   s.license      = { :type => "BSD", :file => "LICENSE" }
-  s.author             = { "Adrian Kosmaczewski" => "akosma@me.com" }
-  s.social_media_url   = "http://twitter.com/akosma"
+  s.author             = { "IDEAL-YANG" => "lxyang6688@163.com" }
+  s.social_media_url   = "http://twitter.com/heiheipingguo"
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.11"
   s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "3.0"
-  s.source       = { :git => "https://github.com/akosma/SwiftMoment.git", :tag => "v0.7" }
+  s.source       = { :git => "https://github.com/IDEAL-YANG/SwiftMoment.git", :tag => "v0.7.1" }
   s.source_files  = "SwiftMoment/SwiftMoment"
   s.resource     = "SwiftMoment/SwiftMoment/MomentFromNow.bundle"
 end
